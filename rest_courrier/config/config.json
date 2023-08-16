@@ -2,20 +2,20 @@
   "development": {
     "username": "root",
     "password": "Mito.1225",
-    "database": "database_development",
+    "database": "courrier",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": null,
+    "password": "Mito.1225",
     "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": null,
+    "password": "Mito.1225",
     "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "mysql"

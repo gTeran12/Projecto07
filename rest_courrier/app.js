@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 /* REFERENCIA AL MANEJADOR DE RUTAS*/
-var usersRouter = require('./routes/users');
+var usersRouter = require('./routes/rest_users');
 
 
 var app = express();
@@ -27,7 +27,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 /* RELACIÓN ENTRE LA RUTA DEL URL CON LA REFERENCIA CON EL MANEJADOR DE RUTAS*/
-app.use('/')
+app.use('/rest/rest_users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
