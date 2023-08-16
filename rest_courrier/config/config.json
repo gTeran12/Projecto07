@@ -15,9 +15,9 @@
   },
   "production": {
     "username": "root",
-    "password": "Mito.1225",
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "password": "Tnq3tTDzlmHkUahlWEnm",
+    "database": "railway",
+    "host": "containers-us-west-197.railway.app",
     "dialect": "mysql"
   }
 }
