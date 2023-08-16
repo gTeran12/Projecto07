@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 /* REFERENCIA AL MANEJADOR DE RUTAS*/
-var packageRouter = require('./routes/users');
+var usersRouter = require('./routes/users');
 
 
 var app = express();
