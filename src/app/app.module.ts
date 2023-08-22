@@ -14,8 +14,18 @@ import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
+/*MatTableModule
+Importe y registre el módulo MatTableModule en app.module.ts. */
+import {MatTableModule} from '@angular/material/table';
+import {MatSelectModule} from '@angular/material/select';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+
+
 
 import { FlexLayoutModule } from "@angular/flex-layout";
+
+import { HttpClientModule } from  '@angular/common/http';
 
 
 @NgModule({
@@ -35,7 +45,12 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     MatToolbarModule,
     MatCardModule,
     FlexLayoutModule,
-    MatListModule
+    MatListModule,
+    MatTableModule,
+    MatSelectModule,
+    MatFormFieldModule,
+    MatInputModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
